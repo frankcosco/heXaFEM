@@ -1,9 +1,9 @@
 # Reference results (materialOnly)
 
-These 13 files are copied verbatim from the historical `dev2` repository
-(`__final__ModelUpdatingBeam__AnnaPHD/revisedFrequencies/materialOnly/`),
-copied on 23/10/2026 and **not regenerated** -- they are the exact outputs
-behind the manuscript's published Figures 7, 8, 9, 10 and 11.
+These 13 files are copied verbatim from the original working copy used to
+produce the manuscript, copied on 23/10/2026 and **not regenerated** --
+they are the exact outputs behind the manuscript's published Figures 7, 8,
+9, 10 and 11.
 
 They are read by `post_processing/parseFinelPaper.m`
 (`parseModelUpdatingFolder("revisedFrequencies\materialOnly", ...)` in the
@@ -15,12 +15,12 @@ original script -- the path there assumes this folder is still named
 free; thickness/width/length FIXED at nominal (4, 40, 360 mm) -- this is the
 configuration actually used for the paper's headline results (NOT the
 `allParams`/`allParams2` variants, which also freed geometry and were
-superseded; those are not copied here, see `dev2` if needed).
+superseded; those are not copied here).
 
 ## Provenance note (added 23/10/2026): Hexa8-Int8_65x585x5
 
 Table 2 lists 5 Hexa8-Int8 densities (26x234x2, 39x351x3, 52x468x4,
-65x585x5, 78x702x6). The `materialOnly/` folder on `dev2` only had 4 of
+65x585x5, 78x702x6). The original `materialOnly/` folder only had 4 of
 these active at the top level; `Hexa8-Int8_65x585x5.txt` was sitting in a
 `materialOnly/discarded/` subfolder instead, which `parseModelUpdatingFolder`
 does not recurse into.

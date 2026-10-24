@@ -1,7 +1,7 @@
-%% CLEAN REFERENCE COPY -- derived from __final__ModelUpdatingBeam__AnnaPHD/Modal_updating_clean_LM.m
-% Correction applied vs. the live script in dev2 (as of 23/10/2026):
+%% CLEAN REFERENCE COPY for the public release
+% Correction applied vs. the original working copy (as of 23/10/2026):
 %   var2optimize was [true true true true false false] (thickness free) in the
-%   live script, but ALL saved result files in revisedFrequencies/materialOnly/
+%   original script, but ALL saved result files in revisedFrequencies/materialOnly/
 %   report the optimized thickness identical to the initial value (4.0000 mm)
 %   across all 12 mesh/formulation cases -- proof that the historical "material
 %   only" runs (the ones consistent with the paper's Fig. 8, which reports only

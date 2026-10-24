@@ -83,10 +83,10 @@ fprintf('\nRight singular vectors (columns), scaled-parameter space [rho,E,nu]:\
 disp(array2table(V, 'RowNames', paramNames, ...
     'VariableNames', {'V1_stiffest','V2','V3_flattest'}));
 
-% Parameter correlation matrix from inv(J'J) -- added 24/10 for consistency with the
-% other sensitivity_runs scripts and to make the corr(rho,E) figure cited in the
-% reviewer response (ReviewersComments.docx, R3.3) reproducible directly from this
-% script's own output, instead of only from an ad-hoc follow-up calculation.
+% Parameter correlation matrix from inv(J'J) -- added for consistency with the
+% other sensitivity_runs scripts and to make the corr(rho,E) figure discussed
+% in the paper reproducible directly from this script's own output, instead
+% of only from an ad-hoc follow-up calculation.
 JTJ = J.' * J;
 covP = inv(JTJ);
 dP = sqrt(diag(covP));

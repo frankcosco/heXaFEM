@@ -1,13 +1,13 @@
 %% jacobian_svd_hexa64_small.m
 % Cross-mesh validation of jacobian_svd_hexa8.m: repeats the SAME SVD
-% identifiability analysis (R3.3 / R4.2 / R5.3 evidence) on a DIFFERENT
+% identifiability analysis discussed in the paper on a DIFFERENT
 % element type/order and a DIFFERENT (coarser) density, to check that the
 % E-rho flat direction found for Hexa8-Int8 (26x234x2) is a property of the
 % modal-data parametrization itself, not an artifact of one specific mesh.
 %
 % Mesh: Hexa64-Int64, 13x117x1 (the SMALLER/coarser of the two Hexa64
 % densities in the DoE, Table 2 -- matches
-% dev2/.../revisedFrequencies/materialOnly/MU-Singlerun-TRRBeamHexa64-Int64_13x117x1.txt,
+% reference_results/MU-Singlerun-TRRBeamHexa64-Int64_13x117x1.txt,
 % same x0 = [2.70e-06, 69580000, 0.33] as the Hexa8 'script_nominal' case).
 %
 % Requires aligned_experimental_data.mat in the current folder (SHARED with
@@ -86,9 +86,9 @@ fprintf('\nRight singular vectors (columns), scaled-parameter space [rho,E,nu]:\
 disp(array2table(V, 'RowNames', paramNames, ...
     'VariableNames', {'V1_stiffest','V2','V3_flattest'}));
 
-% Parameter correlation matrix from inv(J'J) -- added 24/10, same reasoning as
-% jacobian_svd_hexa8.m: makes the corr(rho,E)=1.0000 figure cited in the reviewer
-% response reproducible directly from this script instead of an ad-hoc calculation.
+% Parameter correlation matrix from inv(J'J) -- same reasoning as
+% jacobian_svd_hexa8.m: makes the corr(rho,E)=1.0000 figure discussed in the
+% paper reproducible directly from this script instead of an ad-hoc calculation.
 JTJ = J.' * J;
 covP = inv(JTJ);
 dP = sqrt(diag(covP));
