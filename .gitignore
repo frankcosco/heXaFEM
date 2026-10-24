@@ -21,6 +21,11 @@ model_updating/sensitivity_runs/referenceDic-grid.tif
 # human-readable equivalent is experimental_data/tabular_modal_data/).
 model_updating/sensitivity_runs/aligned_experimental_data.mat
 
+# Internal-only working notes (full debugging/provenance log, submission ID,
+# internal paths and reviewer references). docs/VALIDATION_NOTES.md is the
+# cleaned public version; this is the private original, kept locally only.
+docs/VALIDATION_NOTES.private.md
+
 # OS cruft
 .DS_Store
 Thumbs.db
