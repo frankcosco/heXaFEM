@@ -34,7 +34,10 @@ combinations are used where across the related publications below).
 
 ## Related publications
 
-This code has been developed and used across three publications:
+This code has been developed and used across different publications.
+And finally in [3] the **heXaFEM-MU** pipeline (`model_updating/`)
+and the `model_updating/sensitivity_runs/` identifiability analysis were presented.
+
 
 1. Karpik, A., Cosco, F. & Mundo, D. "Higher-Order Hexahedral Finite
    Elements for Structural Dynamics: A Comparative Review." *Machines*
@@ -47,10 +50,6 @@ This code has been developed and used across three publications:
    Interpolation Order on Finite Element Model Updating: Accuracy,
    Robustness, Computational Efficiency, and Parameter Compensation
    Effects." *Scientific Reports* (under review).
-   — _author order confirmed 24/10/2026 against the submitted manuscript
-   PDF; this is the paper the **heXaFEM-MU** pipeline (`model_updating/`)
-   and the `model_updating/sensitivity_runs/` identifiability analysis in
-   this repository directly accompany._
 
 ## Code authors
 
