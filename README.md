@@ -84,6 +84,3 @@ already-extracted modal data (frequencies, mode shapes) are published in
 tabular form instead, in
 [`experimental_data/tabular_modal_data/`](experimental_data/tabular_modal_data/README.md).
 
-## License
-
-TODO — add a LICENSE file before making this repository public.
