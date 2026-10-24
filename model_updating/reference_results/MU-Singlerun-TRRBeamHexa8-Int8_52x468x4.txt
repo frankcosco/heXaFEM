@@ -1,0 +1,101 @@
+
+
+######################################## trust-region-reflective
+Model Updating Problem.
+Beam Dimensions:    40 x 360 x 4
+Discretized with: 52x468x4 Hexa8-Int8 elements
+free DOFs: 372060 - fixed DOFs: 795 - total DOFs: 372855 
+First Objective Function Evaluation:  initial E_pi: 0.0434 0.0552 0.1720 0.1059 -> resNorm=sum(E_pi)=:0.3766 - rms(E_pi):0.1069
+
+                                            Norm of      First-order 
+ Iteration  Func-count      Resnorm            step       optimality
+     0          4          0.376554                            0.224
+Err_PI: [ 0.0434  0.0552  0.1720  0.1059 ]. ResNorm (sum(ErrP)=)0.3765544. RMS_pi=0.1069374
+Xscaled: [ 1.0000  1.0000  1.0000 ]
+[21-04-2026 13:29] elapsed Time 76.88 [s]. Output:iter
+Current density: 2.70000000000000e-06 [kg/mm³]
+Current young's Modulus: 6.95800000000000e+07 [kPa]
+Current poisson's Ratio: 0.33000000000000 
+     1          8          0.183373        0.141969           0.0848      
+Err_PI: [ 0.0053  0.0061  0.1153  0.0567 ]. ResNorm (sum(ErrP)=)0.1833728. RMS_pi=0.0643618
+Xscaled: [ 1.0231  0.9742  1.0185 ]
+[21-04-2026 13:30] elapsed Time 153.82 [s]. Output:iter
+Current density: 2.76240904333823e-06 [kg/mm³]
+Current young's Modulus: 6.77879946541666e+07 [kPa]
+Current poisson's Ratio: 0.33611614994388 
+     2         12          0.154421        0.230619            0.187      
+Err_PI: [ 0.0183  0.0089  0.0786  0.0486 ]. ResNorm (sum(ErrP)=)0.1544209. RMS_pi=0.0473134
+Xscaled: [ 1.0299  0.9615  1.0991 ]
+[21-04-2026 13:32] elapsed Time 230.38 [s]. Output:iter
+Current density: 2.78065764418874e-06 [kg/mm³]
+Current young's Modulus: 6.69023412214319e+07 [kPa]
+Current poisson's Ratio: 0.36270031583355 
+     3         16          0.142984       0.0716657            0.021      
+Err_PI: [ 0.0112  0.0017  0.0786  0.0514 ]. ResNorm (sum(ErrP)=)0.1429842. RMS_pi=0.0473231
+Xscaled: [ 1.0259  0.9633  1.1151 ]
+[21-04-2026 13:33] elapsed Time 306.98 [s]. Output:iter
+Current density: 2.76983867809545e-06 [kg/mm³]
+Current young's Modulus: 6.70269634332878e+07 [kPa]
+Current poisson's Ratio: 0.36797015587205 
+     4         20          0.142257        0.160639           0.0891      
+Err_PI: [ 0.0107  0.0012  0.0783  0.0521 ]. ResNorm (sum(ErrP)=)0.1422571. RMS_pi=0.0473368
+Xscaled: [ 1.0498  0.9856  1.1227 ]
+[21-04-2026 13:34] elapsed Time 383.63 [s]. Output:iter
+Current density: 2.83440655005851e-06 [kg/mm³]
+Current young's Modulus: 6.85754335620447e+07 [kPa]
+Current poisson's Ratio: 0.37049092873486 
+     5         24          0.141231       0.0401596            0.166      
+Err_PI: [ 0.0103  0.0009  0.0777  0.0524 ]. ResNorm (sum(ErrP)=)0.1412314. RMS_pi=0.0471264
+Xscaled: [ 1.0414  0.9783  1.1208 ]
+[21-04-2026 13:35] elapsed Time 459.81 [s]. Output:iter
+Current density: 2.81190200228947e-06 [kg/mm³]
+Current young's Modulus: 6.80666904620448e+07 [kPa]
+Current poisson's Ratio: 0.36985999155548 
+     6         28          0.141231       0.0100399            0.166      
+Err_PI: [ 0.0103  0.0009  0.0777  0.0524 ]. ResNorm (sum(ErrP)=)0.1412314. RMS_pi=0.0471264
+Xscaled: [ 1.0414  0.9783  1.1208 ]
+[21-04-2026 13:37] elapsed Time 536.58 [s]. Output:iter
+Current density: 2.81190200228947e-06 [kg/mm³]
+Current young's Modulus: 6.80666904620448e+07 [kPa]
+Current poisson's Ratio: 0.36985999155548 
+     7         32          0.141231      0.00250998            0.166      
+Err_PI: [ 0.0103  0.0009  0.0777  0.0524 ]. ResNorm (sum(ErrP)=)0.1412314. RMS_pi=0.0471264
+Xscaled: [ 1.0414  0.9783  1.1208 ]
+[21-04-2026 13:38] elapsed Time 613.47 [s]. Output:iter
+Current density: 2.81190200228947e-06 [kg/mm³]
+Current young's Modulus: 6.80666904620448e+07 [kPa]
+Current poisson's Ratio: 0.36985999155548 
+     8         36          0.141231     0.000627494            0.166      
+Err_PI: [ 0.0103  0.0009  0.0777  0.0524 ]. ResNorm (sum(ErrP)=)0.1412314. RMS_pi=0.0471264
+Xscaled: [ 1.0414  0.9783  1.1208 ]
+[21-04-2026 13:39] elapsed Time 690.15 [s]. Output:iter
+Current density: 2.81190200228947e-06 [kg/mm³]
+Current young's Modulus: 6.80666904620448e+07 [kPa]
+Current poisson's Ratio: 0.36985999155548 
+     9         40          0.141231     0.000156874            0.166      
+Err_PI: [ 0.0103  0.0009  0.0777  0.0524 ]. ResNorm (sum(ErrP)=)0.1412314. RMS_pi=0.0471264
+Xscaled: [ 1.0414  0.9783  1.1208 ]
+[21-04-2026 13:40] elapsed Time 766.46 [s]. Output:iter
+Current density: 2.81190200228947e-06 [kg/mm³]
+Current young's Modulus: 6.80666904620448e+07 [kPa]
+Current poisson's Ratio: 0.36985999155548 
+    10         44          0.141231     3.92184e-05           0.0133      
+Err_PI: [ 0.0103  0.0009  0.0777  0.0524 ]. ResNorm (sum(ErrP)=)0.1412308. RMS_pi=0.0471224
+Xscaled: [ 1.0414  0.9782  1.1208 ]
+[21-04-2026 13:42] elapsed Time 842.79 [s]. Output:iter
+Current density: 2.81190332803526e-06 [kg/mm³]
+Current young's Modulus: 6.80662103459164e+07 [kPa]
+Current poisson's Ratio: 0.36985595619762 
+
+Optimization stopped because the <a href = "matlab: helpview('optim','norm_current_step','CSHelpWindow');">norm of the current step</a>, 3.921839e-05,
+is less than <a href = "matlab: helpview('optim','tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-04.
+
+Optimized density: 2.8119e-06 [kg/mm³]
+Optimized young's Modulus: 6.8066e+07 [kPa]
+Optimized poisson's Ratio: 0.3699 
+Optimized thikness        : 4.0000 [mm]
+Optimized width           : 40.0000 [mm]
+Optimized lenght          : 360.0000 [mm]
+Model updating  842.80 seconds.
+ initial E_pi: 0.0434 0.0552 0.1720 0.1059 -> resNorm=sum(E_pi)=:0.3766 - rms(E_pi):0.1069
+ optimal E_pi: 0.0103 0.0009 0.0777 0.0524 -> resNorm=sum(E_pi)=:0.1412 - rms(E_pi):0.0471

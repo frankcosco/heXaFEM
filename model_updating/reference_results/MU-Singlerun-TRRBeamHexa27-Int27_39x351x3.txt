@@ -1,0 +1,73 @@
+
+
+######################################## trust-region-reflective
+Model Updating Problem.
+Beam Dimensions:    40 x 360 x 4
+Discretized with: 39x351x3 Hexa27-Int27 elements
+free DOFs: 1164618 - fixed DOFs: 1659 - total DOFs: 1166277 
+First Objective Function Evaluation:  initial E_pi: 0.0165 0.0280 0.1680 0.0782 -> resNorm=sum(E_pi)=:0.2907 - rms(E_pi):0.0941
+
+                                            Norm of      First-order 
+ Iteration  Func-count      Resnorm            step       optimality
+     0          4          0.290682                            0.387
+Err_PI: [ 0.0165  0.0280  0.1680  0.0782 ]. ResNorm (sum(ErrP)=)0.2906819. RMS_pi=0.0940712
+Xscaled: [ 1.0000  1.0000  1.0000 ]
+[21-04-2026 17:28] elapsed Time 653.30 [s]. Output:iter
+Current density: 2.70000000000000e-06 [kg/mm³]
+Current young's Modulus: 6.95800000000000e+07 [kPa]
+Current poisson's Ratio: 0.33000000000000 
+     1          8          0.201787        0.118079            0.821      
+Err_PI: [ 0.0112  0.0016  0.1388  0.0502 ]. ResNorm (sum(ErrP)=)0.2017866. RMS_pi=0.0740054
+Xscaled: [ 1.0278  1.0000  0.9987 ]
+[21-04-2026 17:39] elapsed Time 1303.23 [s]. Output:iter
+Current density: 2.77509825489655e-06 [kg/mm³]
+Current young's Modulus: 6.95781653143245e+07 [kPa]
+Current poisson's Ratio: 0.32958568426749 
+     2         12          0.201268      0.00822321             1.36      
+Err_PI: [ 0.0131  0.0035  0.1364  0.0483 ]. ResNorm (sum(ErrP)=)0.2012684. RMS_pi=0.0726684
+Xscaled: [ 1.0278  0.9980  1.0001 ]
+[21-04-2026 17:50] elapsed Time 1957.31 [s]. Output:iter
+Current density: 2.77502133683828e-06 [kg/mm³]
+Current young's Modulus: 6.94423856029570e+07 [kPa]
+Current poisson's Ratio: 0.33002858657484 
+     3         16          0.201227       0.0020558            0.536      
+Err_PI: [ 0.0137  0.0040  0.1358  0.0478 ]. ResNorm (sum(ErrP)=)0.2012271. RMS_pi=0.0723193
+Xscaled: [ 1.0278  0.9974  1.0001 ]
+[21-04-2026 18:01] elapsed Time 2606.95 [s]. Output:iter
+Current density: 2.77503116374933e-06 [kg/mm³]
+Current young's Modulus: 6.94023896992422e+07 [kPa]
+Current poisson's Ratio: 0.33002470445421 
+     4         20          0.201211     0.000513951            0.174      
+Err_PI: [ 0.0138  0.0042  0.1356  0.0476 ]. ResNorm (sum(ErrP)=)0.2012110. RMS_pi=0.0722311
+Xscaled: [ 1.0278  0.9973  1.0001 ]
+[21-04-2026 18:12] elapsed Time 3259.40 [s]. Output:iter
+Current density: 2.77503202761539e-06 [kg/mm³]
+Current young's Modulus: 6.93924664997535e+07 [kPa]
+Current poisson's Ratio: 0.33003070405165 
+     5         24          0.201211     0.000128488            0.174      
+Err_PI: [ 0.0138  0.0042  0.1356  0.0476 ]. ResNorm (sum(ErrP)=)0.2012110. RMS_pi=0.0722311
+Xscaled: [ 1.0278  0.9973  1.0001 ]
+[21-04-2026 18:23] elapsed Time 3912.25 [s]. Output:iter
+Current density: 2.77503202761539e-06 [kg/mm³]
+Current young's Modulus: 6.93924664997535e+07 [kPa]
+Current poisson's Ratio: 0.33003070405165 
+     6         28          0.201211     3.21219e-05            0.174      
+Err_PI: [ 0.0138  0.0042  0.1356  0.0476 ]. ResNorm (sum(ErrP)=)0.2012110. RMS_pi=0.0722311
+Xscaled: [ 1.0278  0.9973  1.0001 ]
+[21-04-2026 18:34] elapsed Time 4567.28 [s]. Output:iter
+Current density: 2.77503202761539e-06 [kg/mm³]
+Current young's Modulus: 6.93924664997535e+07 [kPa]
+Current poisson's Ratio: 0.33003070405165 
+
+Optimization stopped because the <a href = "matlab: helpview('optim','norm_current_step','CSHelpWindow');">norm of the current step</a>, 3.212191e-05,
+is less than <a href = "matlab: helpview('optim','tolx','CSHelpWindow');">options.StepTolerance</a> = 1.000000e-04.
+
+Optimized density: 2.7750e-06 [kg/mm³]
+Optimized young's Modulus: 6.9392e+07 [kPa]
+Optimized poisson's Ratio: 0.3300 
+Optimized thikness        : 4.0000 [mm]
+Optimized width           : 40.0000 [mm]
+Optimized lenght          : 360.0000 [mm]
+Model updating  4567.28 seconds.
+ initial E_pi: 0.0165 0.0280 0.1680 0.0782 -> resNorm=sum(E_pi)=:0.2907 - rms(E_pi):0.0941
+ optimal E_pi: 0.0138 0.0042 0.1356 0.0476 -> resNorm=sum(E_pi)=:0.2012 - rms(E_pi):0.0722

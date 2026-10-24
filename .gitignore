@@ -1,0 +1,26 @@
+# Raw DIC calibration images and raw modal-test export.
+# Decision (23/10/2026): not part of the public release -- the already-
+# extracted modal data is published instead, in tabular form, under
+# experimental_data/tabular_modal_data/. See that folder's README.md and
+# the top-level README's "Data" section.
+#
+# These files are kept in the local working copy (needed to actually run
+# the pipeline end-to-end) but are intentionally excluded here, in all
+# three locations that hold a working copy of them.
+experimental_data/real_modeset.unv
+experimental_data/referenceDIC-FE-UPDATING.tif
+experimental_data/referenceDic-grid.tif
+model_updating/execution/real_modeset.unv
+model_updating/execution/referenceDIC-FE-UPDATING.tif
+model_updating/execution/referenceDic-grid.tif
+model_updating/sensitivity_runs/real_modeset.unv
+model_updating/sensitivity_runs/referenceDIC-FE-UPDATING.tif
+model_updating/sensitivity_runs/referenceDic-grid.tif
+
+# MATLAB cache of the DIC-aligned experimental data (binary; the public,
+# human-readable equivalent is experimental_data/tabular_modal_data/).
+model_updating/sensitivity_runs/aligned_experimental_data.mat
+
+# OS cruft
+.DS_Store
+Thumbs.db

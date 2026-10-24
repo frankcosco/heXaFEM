@@ -1,0 +1,5 @@
+mode_index,label,frequency_Hz,omega2_rad2_per_s2
+1,1st bending,25.311800,25293.317595
+2,2nd bending,157.653500,981221.307086
+3,torsional,410.100900,6639588.766531
+4,3rd bending,440.239400,7651340.907998
