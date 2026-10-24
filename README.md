@@ -34,22 +34,38 @@ combinations are used where across the related publications below).
 
 ## Related publications
 
-This code has been developed and used across different publications.
-And finally in [3] the **heXaFEM-MU** pipeline (`model_updating/`)
-and the `model_updating/sensitivity_runs/` identifiability analysis were presented.
+This repository is the companion code for three publications on higher-order
+hexahedral finite elements and their use in model updating:
 
+1. **A. Karpik, F. Cosco, D. Mundo (2023).** *Higher-Order Hexahedral Finite
+   Elements for Structural Dynamics: A Comparative Review.* Machines, 11(3).
+   https://doi.org/10.3390/machines11030326
+   Systematically compares the common hexahedral element formulations
+   (Hexa8, serendipity/complete Hexa20/27, Hexa64), including reduced
+   integration schemes, and benchmarks their convergence rate and
+   computational efficiency on the structural eigenvalue problem.
 
-1. Karpik, A., Cosco, F. & Mundo, D. "Higher-Order Hexahedral Finite
-   Elements for Structural Dynamics: A Comparative Review." *Machines*
-   **11**(3), 326 (2023).
-   [10.3390/machines11030326](https://doi.org/10.3390/machines11030326)
-2. Karpik, A., Cosco, F. & Mundo, D. "Dynamic Error Estimation in
-   Higher-Order Finite Elements." *Designs* **8**(4), 79 (2024).
-   [10.3390/designs8040079](https://doi.org/10.3390/designs8040079)
-3. Cosco, F., Karpik, A., Perrelli, M. & Mundo, D. "Influence of
+2. **A. Karpik, F. Cosco, D. Mundo (2024).** *Dynamic Error Estimation in
+   Higher-Order Finite Elements.* Designs, 8(4), 79. https://doi.org/10.3390/designs8040079
+   Extends the comparison to transient dynamic solutions, and shows that
+   the eigenenergy norm computed from the eigensolution is a reliable,
+   much cheaper predictor of the time- and frequency-domain accuracy
+   (TRAC/FRAC) that would otherwise require a full transient run.
+
+3. **F. Cosco, A. Karpik, M. Perrelli, D. Mundo.** *Influence of
    Interpolation Order on Finite Element Model Updating: Accuracy,
    Robustness, Computational Efficiency, and Parameter Compensation
-   Effects." *Scientific Reports* (under review).
+   Effects.* Submitted to Scientific Reports (under review).
+   Uses the element library from (1)-(2) inside a nonlinear least-squares
+   model-updating pipeline (`heXaFEM-MU`) to investigate how finite-element
+   interpolation order affects the accuracy, robustness and physical
+   plausibility of the identified material parameters. The paper proposes
+   normalized compensation indices (PCI₀, PCI∞) to quantify the extent to
+   which a reduced modal residual is accompanied by a genuine improvement
+   in parameter identification, and evaluates them on both numerical and
+   DIC-based experimental modal data from an aluminium cantilever beam.
+   Manuscript currently under peer review; details may change before
+   publication.
 
 ## Code authors
 
